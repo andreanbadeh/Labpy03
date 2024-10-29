@@ -85,4 +85,36 @@ print("Laba bulan ke-7 sebesar:", laba[6])
 print("Laba bulan ke-8 sebesar:", laba[7])
 print("Total laba adalah:", total_laba)
 ```
+k
+
+```python
+modal_awal = 100000000
+```
+Modal awal ditetapkan sebesar 100 juta rupiah.
+
+```python
+laba = [0, 0, 0, 0, 0, 0, 0, 0]
+```
+Array `laba` dibuat untuk menyimpan laba bulanan selama 8 bulan, dengan nilai awal 0 untuk semua bulan.
+
+```python
+laba[2] = modal_awal * 0.01  
+laba[4] = laba[2] * 1.05     
+laba[7] = laba[4] * 0.98
+```
+laba dihitung sebesar 1% dari `modal_awal`, yaitu 1 juta rupiah, laba meningkat sebesar 5% dari laba bulan ke-3. Nilainya menjadi 1,05 juta rupiah, laba mengalami penurunan sebesar 2% dari laba bulan ke-5. Nilai laba bulan ke-8 adalah 1,029 juta rupiah.
+
+```python
+total_laba = sum(laba)
+```
+Fungsi `sum()` digunakan untuk menjumlahkan semua nilai dalam array `laba`, yang menghasilkan total laba selama 8 bulan.
+
+```python
+print("Laba bulan ke-1 sebesar:", laba[0])
+```
+Baris-baris ini mencetak laba untuk masing-masing bulan, dan total laba.
+
+
+
+
 

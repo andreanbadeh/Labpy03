@@ -7,6 +7,10 @@ NIM: 312410341
 
 Matkul: Bahasa Pemrograman
 
+# Soal latihan
+
+![gambar](https://github.com/andreanbadeh/Labpy03/blob/ead01c1a56b760fa2741e76cda7776d524b1c0e9/Image/Screenshot%20From%202024-10-29%2011-15-44.png)
+
 # Latihan1.py
 
 ```python
@@ -175,3 +179,31 @@ Program meminta pengguna untuk memilih antara opsi Tarik Uang atau Keluar.
 if pilihan == "1":
     jumlah = int(input("Masukkan jumlah penarikan: "))
 ```
+Pengguna akan diminta memasukkan jumlah uang yang ingin ditarik, kemudian memeriksa apakah jumlah yang diminta kurang dari atau sama dengan saldo saat ini
+
+```python
+if jumlah <= saldo:
+```
+Jika Benar: Jumlah tersebut dikurangi dari saldo, dan pesan Penarikan berhasil! akan ditampilkan.
+Jika Tidak Cukup: Program menampilkan pesan Saldo tidak cukup!
+
+```python
+elif pilihan == "2":
+    print("Terima kasih telah menggunakan ATM BTN!")
+    break
+```
+Jika pengguna memilih "2", pesan Terima kasih telah menggunakan ATM BTN! akan ditampilkan, dan program akan keluar dari loop dengan perintah `break`.
+
+```python
+else:
+    print("Pilihan tidak valid!")
+```
+Jika input pengguna tidak sesuai dengan opsi yang ada (1 atau 2), maka program akan menampilkan pesan Pilihan tidak valid!
+
+Code program tersebut:
+
+![gambar](https://github.com/andreanbadeh/Labpy03/blob/2d34fe183a3296798cef49d24db50a2c7efd5372/Image/latihan3.png)
+
+Hasil program tersebut:
+
+![gambar](https://github.com/andreanbadeh/Labpy03/blob/2d34fe183a3296798cef49d24db50a2c7efd5372/Image/Screenshot%20From%202024-10-29%2012-06-49.png)

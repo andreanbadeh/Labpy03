@@ -21,7 +21,7 @@ for i in range(1, n+1):
 print("Selesai")
 ```
 
-kkkk
+jelasin
 
 ```python
 import random
@@ -85,7 +85,7 @@ print("Laba bulan ke-7 sebesar:", laba[6])
 print("Laba bulan ke-8 sebesar:", laba[7])
 print("Total laba adalah:", total_laba)
 ```
-k
+jelasin
 
 ```python
 modal_awal = 100000000
@@ -122,6 +122,32 @@ Hasil program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/d19ff542f8f6a7e909f4d2828d9cfe78f1c24c86/Image/Screenshot%20From%202024-10-29%2011-44-10.png)
 
+# Latihan3.py
+
+```python
+saldo = 1000000
+
+while True:
+  print(f"Saldo saat ini: Rp {saldo}")
+  print("1. Tarik Uang")
+  print("2. Keluar")
+
+  pilihan = input("Pilih menu (1/2): ")
+
+  if pilihan == "1":
+    jumlah = int(input("Masukkan jumlah penarikan: "))
+    if jumlah <= saldo:
+      saldo -= jumlah
+      print("Penarikan berhasil!")
+    else:
+      print("Saldo tidak cukup!")
+  elif pilihan == "2":
+    print("Terima kasih telah menggunakan ATM BTN!")
+    break
+  else:
+    print("Pilihan tidak valid!")
+```
+jelasin 
 
 
 

@@ -25,7 +25,7 @@ for i in range(1, n+1):
 print("Selesai")
 ```
 
-jelasin
+
 
 ```python
 import random
@@ -89,7 +89,7 @@ print("Laba bulan ke-7 sebesar:", laba[6])
 print("Laba bulan ke-8 sebesar:", laba[7])
 print("Total laba adalah:", total_laba)
 ```
-jelasin
+
 
 ```python
 modal_awal = 100000000
@@ -151,7 +151,7 @@ while True:
   else:
     print("Pilihan tidak valid!")
 ```
-jelasin 
+
 
 ```python
 saldo = 1000000

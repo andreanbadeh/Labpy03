@@ -6,7 +6,7 @@ NIM: 312410341
 
 Matkul: Bahasa Pemrograman
 
-#Latihan1
+# Latihan1.py
 
 ```python
 import random

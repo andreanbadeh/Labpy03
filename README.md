@@ -26,4 +26,4 @@ kkkk
 ```python
 n = int(input("Masukkan nilai N: "))
 ```
-Pengguna meminta untuk memasukkan nilai integer `n` yang menentukan berapa banyak angka acak yang akan dihasilkan. `Fungsi input()` menerima masukan dari pengguna dalam bentuk string, dan `int()` mengonversinya menjadi integer.
+Pengguna meminta untuk memasukkan nilai integer `n` yang menentukan berapa banyak angka acak yang akan dihasilkan. Fungsi `input()` menerima masukan dari pengguna dalam bentuk string, dan `int()` mengonversinya menjadi integer.

@@ -49,11 +49,11 @@ print("Selesai")
 ```
 Setelah perulangan selesai, baris ini menampilkan pesan `"Selesai"` untuk menandakan bahwa program telah selesai menjalankan seluruh instruksi.
 
-Hasil program tersebut
+Hasil program tersebut:
 
-![gambar[(https://github.com/andreanbadeh/Labpy03/blob/db2b670f8d7f34ed4a0ae286dd7a3d3a853fed97/Image/latihan1.png)
+![gambar](https://github.com/andreanbadeh/Labpy03/blob/db2b670f8d7f34ed4a0ae286dd7a3d3a853fed97/Image/latihan1.png)
 
-Code program tersebut
+Code program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/db2b670f8d7f34ed4a0ae286dd7a3d3a853fed97/Image/Screenshot%20From%202024-10-29%2011-04-41.png)
 

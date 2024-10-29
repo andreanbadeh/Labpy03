@@ -149,6 +149,29 @@ while True:
 ```
 jelasin 
 
+```python
+saldo = 1000000
+```
+Saldo awal pengguna diatur sebesar 1 juta rupiah.
 
+```python
+while True:
+```
+Loop `while True` digunakan agar program terus berjalan hingga pengguna memilih opsi untuk keluar `(break)`
 
+```python
+print(f"Saldo saat ini: Rp {saldo}")
+print("1. Tarik Uang")
+print("2. Keluar")
+```
+Setiap kali loop berjalan, saldo saat ini akan ditampilkan, bersama dengan dua pilihan menu: Tarik Uang (1) atau Keluar (2).
 
+```python
+pilihan = input("Pilih menu (1/2): ")
+```
+Program meminta pengguna untuk memilih antara opsi Tarik Uang atau Keluar.
+
+```python
+if pilihan == "1":
+    jumlah = int(input("Masukkan jumlah penarikan: "))
+```

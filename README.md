@@ -49,11 +49,11 @@ print("Selesai")
 ```
 Setelah perulangan selesai, baris ini menampilkan pesan `"Selesai"` untuk menandakan bahwa program telah selesai menjalankan seluruh instruksi.
 
-Hasil program tersebut:
+Code program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/db2b670f8d7f34ed4a0ae286dd7a3d3a853fed97/Image/latihan1.png)
 
-Code program tersebut:
+Hasil program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/db2b670f8d7f34ed4a0ae286dd7a3d3a853fed97/Image/Screenshot%20From%202024-10-29%2011-04-41.png)
 
@@ -114,11 +114,11 @@ print("Laba bulan ke-1 sebesar:", laba[0])
 ```
 Baris-baris ini mencetak laba untuk masing-masing bulan, dan total laba.
 
-Hasil program tersebut:
+Code program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/d19ff542f8f6a7e909f4d2828d9cfe78f1c24c86/Image/latihan2.png)
 
-Code program tersebut:
+Hasil program tersebut:
 
 ![gambar](https://github.com/andreanbadeh/Labpy03/blob/d19ff542f8f6a7e909f4d2828d9cfe78f1c24c86/Image/Screenshot%20From%202024-10-29%2011-44-10.png)
 
